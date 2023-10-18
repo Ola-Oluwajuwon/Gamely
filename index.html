@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@300;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Add Bootstrap CSS link here -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">GD.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-dark" href="#">Enroll Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="mobile-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">GD.</a>
+        <img src="images/menu-icon.svg" alt="" class="menu-icon">
+      </div>
+    </nav>
+
+    <div class="mobile-menu-container">
+      <div class="container">
+        <img src="images/close-icon.svg" alt="" class="close-icon">
+        <ul class="mobile-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-dark" href="#">Enroll Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container hero-section">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="display-2">
+            Learn the art of <br>Game Dev
+          </h1>
+          <p class="lead">
+            This is a comprehensive course on Game Development. You will learn
+            everything from generating an idea to publishing your games to
+            different platforms.
+          </p>
+          <a href="#" class="btn btn-light enrol-icon">Enroll Now</a>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/hero-image.png" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="row achievement-cards">
+        <div class="col-md-6">
+          <div class="achievement-card students-enrolled">
+            <div class="content">
+              <div>
+                <h3>32K</h3>
+              </div>
+              <p>Students Enrolled</p>
+            </div>
+            <div class="bg"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="achievement-card overall-rating">
+            <div class="content">
+              <div>
+                <h3>4.7</h3>
+                <img src="images/start-icon.svg" alt="">
+              </div>
+              <p>Overall Rating</p>
+            </div>
+            <div class="bg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="testimonials-section">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="testimonial-card">
+            <div class="content">
+              This is a great course. It helped me a lot. Thank you :)
+            </div>
+            <div class="info">
+              <h4>Jane Cooper</h4>
+              <p class="company">Developer, Sony</p>
+            </div>
+            <img src="images/testimonial-1.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="testimonial-card">
+            <div class="content">Amazing Work! Well done!</div>
+            <div class="info">
+              <h4>Jacob Jones</h4>
+              <p class="company">Designer, Facebook</p>
+            </div>
+            <img src="images/testimonial-2.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h2 class="display-3">What our students say?</h2>
+          <div class="features">
+            <p>
+              All students get access to all the videos and also the source code
+              of the projects.
+            </p>
+            <p>
+              You will also have access to a private Discord channel where you
+              can discuss your doubts.
+            </p>
+          </div>
+          <a href="#" class="btn btn-light desktop-btn">Learn More</a>
+        </div>
+        <div class="col-lg-6">
+          <a href="#" class="btn btn-light mobile-btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  <section class="courses-section bg-primary text-light">
+    <div class="container">
+      <h2 class="display-3">Our Courses</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="course-card">
+            <img src="images/course-1.png" alt="" class="img-fluid">
+            <div class="info">
+              <h3>Game Design Essentials</h3>
+              <div class="duration">8 Hrs</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="course-card">
+            <img src="images/course-2.png" alt="" class="img-fluid">
+            <div class="info">
+              <h3>Unity Game Engine Fundamentals</h3>
+              <div class="duration">12 Hrs</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="course-card">
+            <img src="images/course-3.png" alt="" class="img-fluid">
+            <div class="info">
+              <h3>3D Game Development</h3>
+              <div class="duration">15 Hrs</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="course-card">
+            <img src="images/course-4.png" alt="" class="img-fluid">
+            <div class="info">
+              <h3>Advanced Game Programming</h3>
+              <div class="duration">10 Hrs</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="faq-section">
+    <div class="container">
+      <h2 class="display-3">Frequently Asked Questions</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+              What is included in the course?
+            </button>
+          </h2>
+          <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              The course includes access to all video lessons, project source code, and a private Discord channel for discussions.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+              Is financial aid available?
+            </button>
+          </h2>
+          <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Yes, we offer financial aid to eligible students. Please contact our support team for more information.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+              How long do I have access to the course?
+            </button>
+          </h2>
+          <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              You have lifetime access to the course content, so you can learn at your own pace.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <p>&copy; 2023 GameDev Academy. All rights reserved.</p>
+        </div>
+        <div class="col-lg-6 social-icons">
+          <a href="#"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+          <a href="#"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+          <a href="#"><img src="images/linkedin-icon.svg" alt="LinkedIn"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
